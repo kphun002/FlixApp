@@ -20,7 +20,7 @@ FlixApp is an app that allows users to browse movies from the [The Movie Databas
 - [X] (1pt) Run your app on a real device.
 
 ### App Walkthrough GIF
-<img src="http://g.recordit.co/ob6OAPYlmx.gif" width=250><br>
+<img src="http://g.recordit.co/ob6OAPYlmx.gif" width=250><br> <img src="http://g.recordit.co/b1hhGjA9Nv.gif" width=250><br>
 
 ### Notes
 This is my second iOS app. It was very nice practicing the use of TableView(s) and I look forward to lerninng many more ways on how to use it. The most challenging part so far was making the app look nice in different devices and layout configurations.
