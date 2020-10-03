@@ -15,7 +15,7 @@ FlixApp is an app that allows users to browse movies from the [The Movie Databas
 - [ ] (2pts) In the detail view, when the user taps the poster, a new screen is presented modally where they can view the trailer.
 
 ### App Walkthrough GIF
-<img src="https://recordit.co/nuNNEMHUrw" width=250><br>
+<img src="http://g.recordit.co/nuNNEMHUrw.gif" width=250><br>
 
 ### Notes
 One more time, defining constraints and setting the layout was very challenging.
