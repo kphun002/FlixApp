@@ -1,31 +1,30 @@
 //
-//  MovieDetailsViewController.swift
+//  MovieGridDetailsViewController.swift
 //  FlixApp
 //
-//  Created by Karol Phung on 9/27/20.
+//  Created by Karol Phung on 10/3/20.
 //  Copyright © 2020 Karol Phung. All rights reserved.
 //
 
 import UIKit
-import AlamofireImage
 
-class MovieDetailsViewController: UIViewController {
-    
+class MovieGridDetailsViewController: UIViewController {
+
     @IBOutlet weak var backdrop: UIImageView!
     @IBOutlet weak var posterView: UIImageView!
-    @IBOutlet weak var titleLabel: UILabel!
-    @IBOutlet weak var synopsisLabel: UILabel!
+    @IBOutlet weak var movieTitle: UILabel!
+    @IBOutlet weak var synopsis: UILabel!
     
     var movie: [String:Any]!
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+
+        movieTitle.text = movie["title"] as? String
+        movieTitle.sizeToFit()
         
-        titleLabel.text = movie["title"] as? String
-        titleLabel.sizeToFit()
-        
-        synopsisLabel.text = movie["overview"] as? String
-        synopsisLabel.sizeToFit()
+        synopsis.text = movie["overview"] as? String
+        synopsis.sizeToFit()
         
         let baseUrl = "https://image.tmdb.org/t/p/w185"
         let posterPath = movie["poster_path"] as! String
